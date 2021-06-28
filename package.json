@@ -1,0 +1,25 @@
+{
+  "name": "code-challange",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Azkar Moulana",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "test":"jest --silent=true",
+    "test:watch": "jest --watchAll --silent=true",
+    "test:coverage": "jest --coverage"
+  },
+
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.5",
+    "jest": "^27.0.5",
+    "nodemon": "^2.0.7",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  }
+}
