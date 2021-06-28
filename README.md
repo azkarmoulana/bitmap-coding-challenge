@@ -71,5 +71,5 @@ Example:
 
 ### Running unit tests  
 Unit tests are written using [Jest](https://jestjs.io/)
-1. Run `npm runttest` to run the unit tests
+1. Run `npm run test` to run the unit tests
 2. Alternatively, you can run `npm run test:watch` to run the test in watch mode
